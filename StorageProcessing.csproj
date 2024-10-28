@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.8</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <Reference Include="Assembly-CSharp.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\Assembly-CSharp.dll</HintPath>
+      </Reference>
+
+      <Reference Include="SDG.NetTransport.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\SDG.NetTransport.dll</HintPath>
+      </Reference>
+
+      <Reference Include="UnityEngine.UnityWebRequestModule.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      </Reference>
+
+      <Reference Include="UnityEngine.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+
+      <Reference Include="com.rlabrecque.steamworks.net.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\com.rlabrecque.steamworks.net.dll</HintPath>
+      </Reference>
+
+      <Reference Include="Newtonsoft.Json.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+
+      <Reference Include="Rocket.API.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\Rocket.API.dll</HintPath>
+      </Reference>
+      <Reference Include="Rocket.Core.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\Rocket.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Rocket.Unturned.dll, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>Lib\Rocket.Unturned.dll</HintPath>
+      </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+  </ItemGroup>
+
+</Project>
